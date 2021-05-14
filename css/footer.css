@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: capitalize;
+	font-family: 'Exo 2', sans-serif;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+#footer{
+	background: #333;
+	height: auto;
+	font-family: "open sans";
+	padding: 8px;
+	color: #fff;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+#footer .footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	font-size: 1.5rem;
+	
+}

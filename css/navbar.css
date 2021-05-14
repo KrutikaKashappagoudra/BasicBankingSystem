@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: capitalize;
+	font-family: 'Exo 2', sans-serif;
+}
+
+
+html{
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+
+body{
+	overflow-x: hidden;
+}
+
+
+#header{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	top: 0; left: 0;
+	padding: 1rem, 4rem;
+	background: #fff;
+	box-shadow: 0 .1rem .3rem #999;
+	z-index: 1100;
+	font-size: 3rem;
+}
+
+
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+
+#header h3{
+	font-size: 3.5rem;
+	color: #2aa389 ;
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+
+}
+
+
+#header nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	list-style-type: none;
+	margin-bottom: 0;
+}
+
+
+#header nav ul li{
+	margin-right: 3rem;
+}
+
+
+#header nav ul li a{
+	color: #2aa389;
+	font-size: 1.5rem;
+	text-decoration: none;
+	border: 2px solid #2aa389;
+	padding: 7px;
+	transition: .6s ease;
+	border-radius: 5rem;
+	padding: 7px 15px;
+}
+
+
+#header nav ul li a:hover{
+	text-decoration: none;
+	color: #fff;
+	background-color: #2aa389;
+}
+
+
+#header nav ul li.active a{
+	text-decoration: none;
+	color: #fff;
+	background-color: #2aa389;
+}
